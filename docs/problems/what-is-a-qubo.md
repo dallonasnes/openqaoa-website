@@ -51,14 +51,14 @@ as you can see, we only have linear and quadratic terms in $x$.
 
 As explained in the [what-is-the-qaoa](../what-is-the-qaoa.md) page, QUBOs are used in QAOA to build the Cost Hamiltonian. There are two important points worth mentioning explicitly:
 
-1. The QUBO can be represented by a weighted graph $G(V,E)$ defined by $V$ vertexes and $E$ edges, where the linear part of the QUBO represent the weight of the vertexes and the quadratic is the weight associated to the edges,
+1. The QUBO can be represented by a weighted graph $G(V,E)$ defined by $V$ vertexes and $E$ edges, where the linear part of the QUBO represents the weight of the vertexes and the quadratic is the weight associated to the edges,
 2. The QAOA cost function should be defined as an Ising model, that is, variables should take values in $\{ -1, 1\}$. This means that if one has a QUBO formulation which assumes variables to be in $\{0,1\}$, a conversion must take place to retrieve the equivalent problem but with variables in $\{-1, 1\}$.
 
 
 
 ## QUBOs in OpenQAOA
 
-A QUBO in OpenQAOA is simply described by two lists, and a number for the constant constant term. Using the example above with
+A QUBO in OpenQAOA is simply described by two lists, and a number for the constant term. Using the example above with
 
 $$ 
 3x_1 + 2x_2 + 6x_1x_2 + 4x_1x_2 + 5x_1x_3,
