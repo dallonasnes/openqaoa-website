@@ -1,6 +1,6 @@
 # What is a QUBO?
 
-QAOA can solve binary optimization problems known as QUBOs. QUBO stands for _Quadratic unconstrained binary optimization_, and a QUBO problem represent, loosely speaking, a binary problem with at most quadratic terms. In general any optimization problem can be cast as a binary problem, but not all of them will be quadratic in the resulting binary variables. For a very nice paper showcasing the QUBO formulation of most common optimization problems, please check out Andrew Lucas's paper [Ising formulations of many NP problems](https://arxiv.org/abs/1302.5843)
+QAOA can solve binary optimization problems known as QUBOs. QUBO stands for _Quadratic unconstrained binary optimization_, and a QUBO problem represents, loosely speaking, a binary problem with at most quadratic terms. In general any optimization problem can be cast as a binary problem, but not all of them will be quadratic in the resulting binary variables. For a very nice paper showcasing the QUBO formulation of most common optimization problems, please check out Andrew Lucas's paper [Ising formulations of many NP problems](https://arxiv.org/abs/1302.5843)
 
 ## Binary optimization
 
@@ -17,7 +17,7 @@ $$
 
 ## How to write a QUBO
 
-For our needs, we will be limiting ourself to Quadratic Unconstrained Binary Optimization (QUBO) problems. These problems are binary optimization problems which features at most most polynomial of order 2.
+For our needs, we will be limiting ourself to Quadratic Unconstrained Binary Optimization (QUBO) problems. These problems are binary optimization problems which features at most polynomial of order 2.
 
 
 The most general formulation of a QUBO is then
