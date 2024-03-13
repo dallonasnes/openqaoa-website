@@ -17,7 +17,7 @@ $$
 
 ## How to write a QUBO
 
-For our needs, we will be limiting ourself to Quadratic Unconstrained Binary Optimization (QUBO) problems. These problems are binary optimization problems which features at most polynomial of order 2.
+For our needs, we will be limiting ourself to Quadratic Unconstrained Binary Optimization (QUBO) problems. These problems are binary optimization problems which feature at most polynomial of order 2.
 
 
 The most general formulation of a QUBO is then
